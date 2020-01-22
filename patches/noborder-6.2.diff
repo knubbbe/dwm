@@ -27,4 +27,3 @@ index 4465af1..685eca1 100644
  	XSync(dpy, False);
 -- 
 2.21.0
-
