@@ -10,8 +10,6 @@ static const char *fonts[]          = {
     "Fixedsys Excelsior:size=8:antialias=true:hinting=true",
     "-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1",
     "-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1"
-/*    "FontAwesome5Free-Solid:size=9"
-    "FontAwesome5Free-Regular:size=9"*/
 };
 /*static const char *fonts[]          = { "monospace:size=9" };*/
 static const char dmenufont[]       = "Fixedsys Excelsior:size=10:antialias=true:hinting=true";
@@ -114,22 +112,6 @@ static Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
-	//{ Mod1Mask|ControlMask,         XK_v,      spawn,          SHCMD("CM_DIR=$HOME/.cache/clipmenu /usr/bin/clipmenu -i -fn monospace:size=13 -nb '#06101c' -nf '#afafaf' -sb '#06101c' -sf '#ffcc00' -l 30") },
-	//{ MODKEY|ControlMask,           XK_BackSpace, spawn,       SHCMD("$HOME/.dwm/system.sh") },
-	//{ 0,             XF86XK_AudioLowerVolume,  spawn,          SHCMD("$HOME/.dwm/volume.sh lower") },
-	//{ 0,             XF86XK_AudioRaiseVolume,  spawn,          SHCMD("$HOME/.dwm/volume.sh raise") },
-	//{ 0,             XF86XK_AudioMute,         spawn,          SHCMD("$HOME/.dwm/volume.sh mute") },
-    //{ 0,                            XK_Print,  spawn,          SHCMD("flameshot gui -p ~/Images") },
-	//{ ControlMask,                  XK_Print,  spawn,          SHCMD("flameshot screen -p ~/Images") },
-	//{ ShiftMask|ControlMask,        XK_Print,  spawn,          SHCMD("flameshot full -p ~/Images") },
-    ////{ 0,                            XK_Print,  spawn,          SHCMD("$HOME/.dwm/screenshot.sh select-cb") },
-	////{ MODKEY|ControlMask,           XK_Print,  spawn,          SHCMD("$HOME/.dwm/screenshot.sh") },
-////	{ MODKEY,                       XK_Print,  spawn,          SHCMD("$HOME/.dwm/screenshot.sh select") },
-	//{ MODKEY|ShiftMask,             XK_y,      spawn,          SHCMD("$HOME/.dwm/mpv-youtube.sh") },
-	//{ MODKEY,                       XK_y,      spawn,          SHCMD("$HOME/.dwm/mpv-twitch.sh") },
-    //{ MODKEY,                       XK_F10,    spawn,          SHCMD("$HOME/.dwm/touchpad.sh") },
-    //{ MODKEY,                       XK_Home,   spawn,          SHCMD("$HOME/.dwm/keyboard-layout.sh") },
-    //{ 0,                  XF86XK_Calculator,   spawn,          SHCMD("$HOME/.dwm/keyboard-layout.sh") },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
