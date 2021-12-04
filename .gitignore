@@ -3,3 +3,5 @@
 # include these
 !.gitignore
 !config.h
+!patches/
+!patches/*
